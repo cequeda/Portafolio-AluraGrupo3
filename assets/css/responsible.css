@@ -212,6 +212,10 @@
 .presentacion {
     flex-direction: column-reverse;
 }
+	.cont-img {
+    margin-left: auto;
+        margin-right: auto;
+}
 .contenedor-presentacion{
     width: 100%;
     padding: 2px;
