@@ -1,0 +1,53 @@
+
+.headerPrincipal-nav {
+    display: flex;
+}
+
+.presentacion,  .cont-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.sobreMi{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.grupoSkills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grupoSkills-link {
+    display: flex;
+    width: 18%;
+}
+
+.grupoHobbies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grupoHobbies-link {
+    display: flex;
+    width: 18%;
+}
+
+.cusrosFormacion {
+    display: flex;
+}
+.losProyectos{
+    display: flex;
+    flex-direction: column;
+}
+.proyecto1, .proyecto2{
+    display: flex;
+}
+.proyectos-botones{
+    display: flex;
+    justify-content: space-around;
+}
+.cont-contacto{
+    display: flex;
+}

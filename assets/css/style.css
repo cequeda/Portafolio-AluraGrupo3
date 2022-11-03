@@ -1,0 +1,369 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+	background-color: #F5F5F5;
+	font-family: 'Raleway', sans-serif;
+}
+/*------------------- header- nav  ----------------------------------------*/
+.headerPrincipal {
+
+	background-color: #efefef;
+	padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.contenedor-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+	width: 100%;
+	margin: 0 auto;
+}
+.headerPrincipal-nombre {
+	font-weight: bold;
+	font-size: 2em;
+	margin: 10px;
+}
+.headerPrincipal-nav {
+    gap: 2rem;
+}
+.headerPrincipal-nav-link a{
+    text-decoration: none;
+    color: #9799A6;
+    transition: 150ms;
+    transition-timing-function: ease;
+    transition-delay: ease-out;
+}
+.headerPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+    list-style: none;
+	display: block;
+	border-bottom: 1px solid #9799A6;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 6px 2px 2px black;
+}
+.headerPrincipal-nav-link:hover {
+    background: #aff7ad;
+}
+.oculto a{
+    display: none;
+   text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+/*------------------- PRESENTACION ----------------------------------------*/
+.presentacion {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.contenedor-presentacion {
+    width: 49%;
+}
+.cont-img {
+    width: 49%;
+}
+.contenedor-presentacion{
+    padding: 10px;
+    margin: 30px;
+}
+.contenedor-presentacion h2{
+	font-weight: bold;
+	font-size: 3em;
+	margin: 20px;
+}
+.contenedor-presentacion p{
+	font-size: 2em;
+	margin: 20px;
+}
+.cont-img{
+    align-items: center;
+    margin: 20px;
+
+}
+.cont-img img{
+    width: 70%;
+}
+.presen-links{
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 20px;
+    display: flex;
+    gap:3em;
+    justify-content: center;
+}
+.presen-links a{
+    color: #6a6a6a;
+    text-decoration: none;
+}
+.presen-links a:hover{
+    color: #6f5141;
+    text-decoration: underline;
+}
+/*-------------------  sobreMi ----------------------------------------*/
+.sobreMi {
+    background: #EAF2FD;
+    width: 100%;
+    height: auto;
+
+}
+.conte-sobreMi{
+    width: 70%;
+    padding-top: 4rem;
+    margin-left: 3rem;
+}
+.conte-sobreMi h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+.conte-sobreMi p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+.conte-sobreMi img{
+    width: 15%;
+    margin-left: 2rem;
+}
+/*-------------------  skills ----------------------------------------*/
+.skills {
+    width: 100%;
+    height: auto;
+}
+.conte-skills{
+    width: 100%;
+    padding-top: 4.5rem;
+}
+.conte-skills h3 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	padding: 20px;
+	text-align: center;
+}
+.grupoSkills-link {
+    display: flex;
+    flex-direction: column;
+	height: auto;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+}
+.grupoSkills-link img{
+    height: 50%;
+    width: 50%;
+    margin: 15px auto;
+}
+.grupoSkills-link a {
+    font-size: 1.5rem;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.grupoSkills-link:hover {
+	box-shadow: 6px 4px 4px #797878;
+}
+/*-------------------  hobbies ----------------------------------------*/
+.hobbies {
+    width: 100%;
+    height: auto;
+}
+.conte-hobbies{
+    width: 100%;
+    padding-top: 4.5rem;
+}
+.conte-hobbies h3 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	padding: 20px;
+	text-align: center;
+}
+.grupoHobbies-link {
+    display: flex;
+    flex-direction: column;
+	height: auto;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+}
+.grupoHobbies-link img{
+    height: 50%;
+    width: 50%;
+    margin: 15px auto;
+}
+.grupoHobbies-link a {
+    font-size: 1.5rem;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.grupoHobbies-link:hover {
+	box-shadow: 6px 4px 4px #797878;
+}
+/*-------------------  Formacion ----------------------------------------*/
+.formacion {
+    background: #EAF2FD;
+    width: 100%;
+    height: auto;
+}
+.cont-formacion{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4.5rem;
+}
+.cont-formacion h3 {
+	font-weight: bold;
+	font-size: 32px;
+	padding: 20px;
+	text-align: center;
+}
+.cusrosFormacion p{
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+.cusrosFormacion img{
+    width: 70%;
+    margin-left: 2rem;
+}
+/*-------------------  proyectos ----------------------------------------*/
+.proyectos {
+    width: 100%;
+    height: auto;
+}
+.cont-proyectos{
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4.5rem;
+}
+.proyecto2 {
+    flex-direction: row-reverse;
+}
+.proyectos-texto {
+	font-weight: bold;
+	font-size: 2rem;
+	padding: 20px;
+	text-align: center;
+}
+.proyecto-imagen{
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+}
+.proyecto-imagen img{
+    width: 100%;
+}
+.proyecto-titulo{
+    font-weight: bold;
+	font-size: 1.5rem;
+	padding: 20px;
+	text-align: center;
+}
+.proyecto-texto{
+    font-size: 1.3rem;
+    margin: 2rem;
+    text-align: start;
+}
+.btn{
+    color: #000000;
+    text-decoration: none;
+    width: 30%;
+    height: 2rem;
+    background: #9498a2;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: aliceblue;
+    background: #1b41a0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+/*-------------------  contacto ----------------------------------------*/
+.contacto{
+    background: #EAF2FD;
+    width: 100%;
+    height: auto;
+}
+.cont-contacto{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4.5rem;
+}
+.contacto-imagen{
+    width: 50%;
+}
+.contacto-imagen img{
+    width: 90%;
+    margin: 1.5rem;
+}
+.contacto-formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formularioTitulo{
+   font-weight: bold;
+	font-size: 2rem;
+	padding: 20px;
+}
+.formularioTexto {
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 20px;
+}
+.formularioInput{
+    width: 90%;
+    height: 2rem;
+    margin: 0.5rem;
+    border-color: transparent;
+    border: 2px solid #064f92;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.formularioTextarea{
+    width: 90%;
+    margin: 0.5rem;
+    border-color: transparent;
+    border: 2px solid #064f92;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.btnFormulario{
+    width: 93%;
+    margin: 0.5rem;
+    background: #064f92;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+/*-------------------  footer  ----------------------------------------*/
+.footer{
+    background: #afafaf;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 100%;
+    height: auto;
+}
+.footerTextp{
+    padding: 1rem;
+}

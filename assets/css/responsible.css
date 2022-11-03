@@ -1,0 +1,286 @@
+@media (max-width: 769px){
+    /*------------------- header- nav  ----------------------------------------*/
+.headerPrincipal {
+	padding: 6px 0;
+    position: static;
+    display: flex;
+}
+.contenedor-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headerPrincipal-nombre {
+	font-size: 1em;
+	margin: 4px;
+}
+.headerPrincipal-nav {
+    display: none;
+}
+    .oculto a{
+    display: block;
+   text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+/*------------------- PRESENTACION ----------------------------------------*/
+.presentacion {
+    margin-top: 10px;
+}
+.contenedor-presentacion{
+    padding: 5px;
+}
+.contenedor-presentacion h2{
+	font-size: 1.3em;
+}
+.contenedor-presentacion p{
+	font-size: 1em;
+}
+/*-------------------  sobreMi ----------------------------------------*/
+.conte-sobreMi{
+    width: 100%;
+    padding-top: 0.5rem;
+    margin-left: 1.5rem;
+}
+.conte-sobreMi h3{
+    font-size: 1.4rem;
+}
+.conte-sobreMi p{
+    font-size: 1rem;
+    font-weight: normal;
+}
+.conte-sobreMi img{
+    width: 10%;
+    margin-left: 1rem;
+}
+/*-------------------  skills ----------------------------------------*/
+.conte-skills{
+    padding-top: 1rem;
+}
+.conte-skills h3 {
+	font-size: 1.5rem;
+}
+.grupoSkills-link {
+	width: 200px;
+}
+.grupoSkills-link img{
+    height: auto;
+    width: 40%;
+}
+.grupoSkills-link a {
+    font-size: 1rem;
+	font-weight: normal;
+    padding: 0.5rem;
+}
+/*-------------------  hobbies ----------------------------------------*/
+.conte-hobbies{
+    padding-top: 1rem;
+}
+.conte-hobbies h3 {
+	font-size: 1.5rem;
+}
+.grupoHobbies-link {
+    width: 200px;
+}
+.grupoHobbies-link img{
+    height: auto;
+    width: 40%;
+}
+.grupoHobbies-link #modificar{
+    height: auto;
+    width: 60%;
+}
+.grupoHobbies-link a {
+    font-size: 1rem;
+	font-weight: normal;
+    padding: 0.5rem;
+}
+/*-------------------  Formacion ----------------------------------------*/
+.cont-formacion{
+    width: 100%;
+    margin: 0;
+    padding-top: 1rem;
+}
+.cont-formacion h3 {
+	font-size: 1.5rem;
+	padding: 20px;
+}
+.cusrosFormacion p{
+    font-size: 1rem;
+    margin: 1rem;
+}
+.cusrosFormacion img{
+    width: 50%;
+    margin-left: 0.5rem;
+}
+/*-------------------  proyectos ----------------------------------------*/
+
+.cont-proyectos{
+    width: 100%;
+    margin: 0;
+    padding-top: 1rem;
+}
+.proyectos-texto {
+	font-size: 1.5rem;
+}
+.proyecto1{
+        flex-direction: column;
+    }
+.proyecto2{
+        flex-direction: column;
+    }
+    .proyectosInfo{
+        width: 30%;
+    }
+.proyecto-imagen{
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+}
+.proyecto-imagen img{
+    width: 100%;
+}
+.proyecto-titulo{
+    font-weight: normal;
+	font-size: 1.5rem;
+	padding: 5px;
+}
+.proyecto-texto{
+    font-size: 1rem;
+    margin: 1rem;
+}
+.btn{
+    width: 25%;
+    height: auto;
+    padding: 5px;
+}
+/*-------------------  contacto ----------------------------------------*/
+.cont-contacto{
+    width: 100%;
+    margin:0;
+    padding-top: 1rem;
+}
+.contacto-imagen{
+    display: none;
+}
+.contacto-formulario{
+        width: 90%;
+    }
+.formularioTitulo{
+   font-weight: bold;
+	font-size: 1.5rem;
+	padding: 10px;
+}
+.formularioTexto {
+	font-weight: normal;
+	font-size: 1rem;
+	padding: 10px;
+}
+.formularioInput{
+    width: 100%;
+    height: 1rem;
+    margin: 0.3rem;
+}
+.formularioTextarea{
+    width: 100%;
+    padding: 0.4rem;
+}
+.btnFormulario{
+    width: 30%;
+    font-size: 1rem;
+}
+
+
+
+}
+@media (max-width: 328px){
+ /*------------------- header- nav  ----------------------------------------*/
+.contenedor-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.headerPrincipal-nav {
+    display: none;
+}
+   .oculto a{
+    display: block;
+       font-size: 0.8rem;
+       padding: 0.5rem;
+}
+/*------------------- PRESENTACION ----------------------------------------*/
+.presentacion {
+    flex-direction: column-reverse;
+}
+.contenedor-presentacion{
+    width: 100%;
+    padding: 2px;
+    margin: 0.2rem;
+}
+    .presen-links{
+    width: 80%;
+    font-size: 1rem;
+}
+.contenedor-presentacion h2{
+	margin: 0.2rem;
+}
+.contenedor-presentacion p{
+	margin: 0.2rem;
+}
+/*-------------------  sobreMi ----------------------------------------*/
+.conte-sobreMi{
+    margin-left: 0.2rem;
+}
+.conte-sobreMi h3{
+    margin: 0.2rem;
+}
+.conte-sobreMi p{
+    margin: 0.2rem;
+}
+    .conte-sobreMi img{
+    width: 20%;
+    margin-left: 1rem;
+}
+/*-------------------  skills ----------------------------------------*/
+.grupoSkills-link {
+	width: 100px;
+}
+.grupoSkills-link img{
+    height: auto;
+    width: 20%;
+}
+/*-------------------  hobbies ----------------------------------------*/
+.grupoHobbies-link {
+    width: 100px;
+}
+.grupoHobbies-link img{
+    height: auto;
+    width: 20%;
+}
+.grupoHobbies-link #modificar{
+    height: auto;
+    width: 40%;
+}
+/*-------------------  Formacion ----------------------------------------*/
+.cusrosFormacion{
+    flex-direction: column;
+}
+.cusrosFormacion img{
+    width: 60%;
+}
+/*-------------------  proyectos ----------------------------------------*/
+    .proyectosInfo{
+        width: 80%;
+    }
+/*-------------------  contacto ----------------------------------------*/
+.contacto-formulario{
+        width: 80%;
+    }
+    .btnFormulario{
+    width: 50%;
+    font-size: 0.8rem;
+}
+    /*-------------------  footer  ----------------------------------------*/
+.footer{
+    font-size: 0.8rem;
+}
