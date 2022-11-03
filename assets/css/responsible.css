@@ -193,7 +193,7 @@
 
 
 }
-@media (max-width: 414px){
+@media (max-width: 600px){
  /*------------------- header- nav  ----------------------------------------*/
 .contenedor-header {
     display: flex;
